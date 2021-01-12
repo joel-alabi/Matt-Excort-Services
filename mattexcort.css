@@ -1,0 +1,266 @@
+/* Media Queries: Tablet Landscape */
+@media screen and (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+}
+
+/* Media Queries: Tabled Portrait */
+@media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+}
+
+@media (min-device-width:600px) {
+    img[data-src-600px] {
+        content: attr(data-src-600px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
+/*Navbar items*/
+
+body {
+  font-family: 'Montserrat';
+}
+
+.container {
+  max-width: 100%!important;
+  overflow-x: hidden !important;
+}
+
+.navbar-home {
+    background-color: rgb(169, 181, 182);
+    border-color: none;
+    border-radius: 0;
+    border: none;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0; 
+}
+
+.nvbar {
+  max-height: auto;
+}
+
+
+
+.navbar-home .navbar-nav>li>a {
+    color: rgb(12, 28, 247);
+    font-family: 'Montserrat';
+}
+
+ul li a:active {
+  color: blueviolet;
+}
+
+.navbar-home .navbar-brand {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+ul li:hover{
+  background: rgb(7, 122, 189);
+}
+.carousel-content {
+   
+    height: 700px;
+}
+
+.about-cake {
+	margin-top: 50px;
+  margin-bottom: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.wedding {
+  height: 250px;
+  width: 300px;
+}
+
+.center {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cake-types {
+	margin-top: 10rem;
+	margin-bottom: 5rem;
+}
+
+#cent {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+
+}
+
+#centt {
+  text-align: center;
+}
+
+#centi {
+  text-align: center;
+  color: red;
+}
+
+.about {
+  color: red;
+}
+
+.caption {
+  font-family: 'Montserrat';
+}
+
+.font {
+  margin-bottom: 5rem;
+  color: red;
+}
+
+#logo-img {
+  margin-left: 0;
+}
+.name { 
+  display: flex;
+}
+
+#edit {
+font-size: 20px;
+background-color: aquamarine;
+  margin-top: 50px;
+  margin-left: 115px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+.payment {
+  text-align: center;
+}
+.numbers {
+  background-color: lightcoral;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 115px;
+  margin-bottom: 50px;
+}
+
+#rebrand {
+  color: red;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #contact {
+      text-align: center;
+      font-style: italic;
+    
+  }
+
+  /*Footer*/
+
+.footer {
+  background-color: rgb(169, 181, 182);
+	padding: 2rem 0;
+  padding-left: 30px;
+	color: black;
+}
+
+.fb {
+  float: center;
+  margin-left: 80px;
+  color: skyblue;
+  font-size: 25px !important;  
+
+}
+
+.phorm {
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background: rgb(216, 232, 233);
+}
+
+.forrm {
+  background-color: rgb(214, 214, 211);
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  margin-left: 1rem;
+  padding-left: 2rem;
+  width: 400px;
+}
+
+#details {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: red;
+  
+  margin-left: 7rem;
+  
+}
+#details_1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin-left: 7rem;
+  
+}
+
+#stay {
+  font-weight: bold;
+}
+
+.row {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+-ms-flex-wrap: wrap; /* IE10 */
+flex-wrap: wrap;
+margin: 0 -16px;
+}
+
+.col-25 {
+-ms-flex: 25%; /* IE10 */
+flex: 25%;
+}
+
+.col-50 {
+-ms-flex: 50%; /* IE10 */
+flex: 50%;
+}
+
+.col-75 {
+-ms-flex: 75%; /* IE10 */
+flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+padding: 0 16px;
+}
+
+
