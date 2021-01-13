@@ -233,6 +233,19 @@ input[type=text], select, textarea {
 #stay {
   font-weight: bold;
 }
+button .social {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-family: sans-serif;
+  font-weight: 400;
+  transition: 0.2s ease;
+  cursor: pointer;
+  background-color: red;
+}
 
 .row {
 display: -ms-flexbox; /* IE10 */
@@ -262,5 +275,8 @@ flex: 75%;
 .col-75 {
 padding: 0 16px;
 }
-
+.right-box{
+  background-color: red;
+  color: white;
+}
 
